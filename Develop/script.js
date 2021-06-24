@@ -49,10 +49,15 @@ function renderScheduler () {
         //Create form and textbox inside column
         var colForm = $('<form>');
         var formID = "form" + (i + 1);
+        var textID = "text" + (i + 1);
         colForm.attr('id', formID);
 
         var textArea = $('<textarea>');
         textArea.attr('form', formID);
+        textArea.attr('id', textID);
+
+        //Show saved text from local
+        textArea.text(localStorage.getItem(textID));
 
         colText.append(colForm);
         colForm.append(textArea);
@@ -76,7 +81,10 @@ function renderScheduler () {
 //Render scheduler
 renderScheduler();
 
-//color code time blocks
-
-
 //save entries to local storage
+container.on('click', '.saveBtn', function(event) {
+    var textArea = $(this).siblings().eq(1).children().children().val();
+    var textID = $(this).siblings().eq(1).children().children().attr('id');
+
+    localStorage.setItem(textID, textArea);
+});

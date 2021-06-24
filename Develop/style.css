@@ -6,6 +6,7 @@ body {
 
 textarea {
   background: transparent;
+  outline: none;
   border: none;
   resize: none;
   color: #000000;
@@ -63,6 +64,11 @@ textarea {
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   background-color: #06aed5;
+  background-image: url(../Assets/save.svg);
+  background-size: 25px;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
   color: white;
 }
 
