@@ -12,7 +12,7 @@ Download repository from https://github.com/kevinchewning/Work-Day-Scheduler
 
 Site can be viewed at https://kevinchewning.github.io/Work-Day-Scheduler/
 
-![Site Screenshot](Assets/wsd-screenshot.PNG)
+![Site Screenshot](./Assets/wsd-screenshot.PNG)
 
 ## Credits
 
