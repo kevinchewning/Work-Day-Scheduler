@@ -64,7 +64,7 @@ textarea {
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   background-color: #06aed5;
-  background-image: url(../Assets/save.svg);
+  background-image: url(./Assets/save.svg);
   background-size: 25px;
   background-repeat: no-repeat;
   background-position-x: center;
