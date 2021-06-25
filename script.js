@@ -66,8 +66,6 @@ function renderScheduler () {
         var colSave = $('<div>');
         colSave.addClass('col-1 saveBtn');
 
-        //GO BACK AND ADD IMAGE FOR SAVE BUTTON STYLING
-
         // Append all elements
         columnRow.append(colTime);
         columnRow.append(colText);
